@@ -62,9 +62,9 @@ def at_content(seq):
 
 def main():
     st.snow()
-#     image = Image.open('logo.png')
+    image = Image.open('./logo/logo.png')
 
-#     st.image(image, use_column_width=True)
+    st.image(image, use_column_width=True)
 
     # """A Simple Bioinformatics App"""
     st.title("WHOAMI - Sequencing App")
