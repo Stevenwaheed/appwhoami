@@ -203,7 +203,7 @@ def main():
             if st.button("Dot Plot"):
                 st.write("Comparing the first {} Nucleotide of the Two Sequences".format(cus_limit))
                 dotplotx(dna_seq1[0:cus_limit], dna_seq2[0:cus_limit])
-                 st.set_option('deprecation.showPyplotGlobalUse', False)
+                st.set_option('deprecation.showPyplotGlobalUse', False)
 
                 st.pyplot()
     elif choice == "About":
