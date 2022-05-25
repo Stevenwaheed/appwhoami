@@ -209,7 +209,7 @@ def main():
 
 
     elif choice == "DNA Mutation":
-        st.snow()
+        
         st.subheader("DNA Mutation")
         seq_file_mutation = st.file_uploader("Upload FASTA File", type=["fasta", "fa", "fastq"])
 
