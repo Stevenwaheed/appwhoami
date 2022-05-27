@@ -4,4 +4,4 @@ neatbio==0.0.2
 numpy==1.21.6
 Pillow==9.1.0
 streamlit==1.8.1
-
+beautifulsoup4==4.11.1
