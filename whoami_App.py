@@ -452,14 +452,14 @@ def main():
 
             file_lists = [ID, length, score, identity, positives]
             export = zip_longest(*file_lists)
-            with open('C:\\Users\\eslam\\Desktop\\alignment.csv', 'w+') as alignment:
+            with open('.\\alignment.csv', 'w+') as alignment:
                 wr = csv.writer(alignment)
                 wr.writerow(['ID', 'length', 'score', 'identity', 'positives', 'E'])
                 wr.writerows(export)
                 st.write('')
 
         if st.button("Visualize Similarity"):
-            with open('C:\\Users\\eslam\\Desktop\\alignment.csv', 'r') as alignment:
+            with open('.\\alignment.csv', 'r') as alignment:
                 file = alignment.read()
                 file = file.split('\n')
                 lines = []
